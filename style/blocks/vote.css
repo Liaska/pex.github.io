@@ -6,14 +6,17 @@
     position: relative;
     display: flex;
     max-width: 820px;
-    width: 100%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 120px;
+    padding: 15px 25px 120px 25px;
 }
 
+.vote__wrap__left{
+    padding-right: 10px;
+}
 .vote__wrap {
     max-width: 395px;
 }
@@ -34,7 +37,7 @@
     width: 141px;
     height: 36px;
     background: url("../../img/vote_bot.png");
-    bottom: -36px;
+    bottom: -35px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -105,7 +108,7 @@
 
 .section3__hand {
     background: url("../../img/image-left.jpg") no-repeat  50% /cover;
-    max-width: 625px;
+    max-width: 38%;;
     width: 100%;
 }
 
@@ -257,7 +260,7 @@
     content: "";
     background: url("../../img/Image-right.jpg") no-repeat 50% /cover;
     position: absolute;
-    width: 670px;
+    width: 38%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -284,6 +287,12 @@
     font-size: 15px; line-height: 26px;
 }
 
+@media (max-width:1300px){
+    .section6__about {
+        max-width: 600px;
+        padding-left: 50px;
+    }
+}
 /*Section7 start here*/
 
 .section7 {
@@ -300,8 +309,185 @@
 .section7__about p {
     font-size: 19px; line-height: 31px; padding-bottom: 25px;
 }
-
+a{ text-decoration: none;
+    color: white;
+}
 .section7__about a{
     color: white;
     font-size: 15px; line-height: 26px;
+}
+
+@media (max-width:1300px) {
+    .section3__about {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .section3 b {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .section3 p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .section3 small {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .container7 {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:1300px) {
+    .section6__about {
+        padding-left: 50px;
+    }
+    .container6 {
+        max-width:52%;  
+        margin: 0 -30px;
+    }
+    .section5__inner{
+        padding-left: 75px;
+    }
+
+    .section5__inner {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section6__about b {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .section6__about p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .section6__about small {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .section7__about {
+        padding: 37px 0;
+    }
+    .section7__about b {
+        font-size: 13px;
+        line-height: 22px; padding-bottom: 25px;
+    }
+    
+    .section7__about p {
+        font-size: 15px; line-height: 26px; padding-bottom: 25px;
+    }
+    
+    .section7__about a{
+        color: white;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .section4__inner {
+        padding: 0
+    }
+}
+@media (max-width: 900px) {
+    .vote__wrap {
+        font-size: 10px;
+        line-height: 15px;
+    }    
+    .vote__wrap h3 {
+        padding: 35px 0 18px;
+    }
+    .conteiner__vote {
+        padding-bottom: 90px;
+    }
+    .conteiner__bbb{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .section4 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .section5__inner {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .section3__about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .design__start {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 550px) {
+    .container6 {
+        max-width: 62%;
+        margin: 0 20px;
+    }
+    .section6::before  {
+        width: 0;
+    }
+
+    .section6__about {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 20px;
+        padding: 25px;
+    }
+    .section3__hand {
+        display: none;
+    }
+    .conteiner__bbb h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .conteiner__bbb p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .BangBangBoo {
+        padding: 80px 0;
+    }
+    .header__section {
+        padding: 20px 25px;
+    }
+    .header__ul a {
+        margin-right: 15px;
+    }
+    .header__info {
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+    .conteiner__vote {
+        flex-direction: column;
+    }
+    .vote__wrap {
+        line-height: 10px;
+    }
+    .section5__about h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .section5__inner {
+        align-items: center;
+    }
+    .section4 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }

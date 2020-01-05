@@ -9,3 +9,8 @@ button.addEventListener("focusout", function() {
 button.addEventListener("focusout", function() { 
         zoom.classList.add('active');
 });
+
+let search = document.querySelector(".search__header");
+if (window.innerWidth <= 700) {
+    search.removeAttribute("placeholder");
+}
