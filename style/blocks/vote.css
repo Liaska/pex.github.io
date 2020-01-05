@@ -43,7 +43,7 @@
 /* BBB START HERE */
 
 .BangBangBoo {
-    background: url(/img/image-1.jpg) no-repeat 50%  /cover pink;
+    background: url("/img/image-1.jpg") no-repeat 50%  /cover pink;
     padding: 160px 0;
     position: relative;
 }
@@ -140,7 +140,7 @@
 .section4::after {
     content: "";
     filter: grayscale(100%);
-    background: url(/img/image-2.jpg) no-repeat 50%  /cover pink;
+    background: url("/img/image-2.jpg") no-repeat 50%  /cover pink;
     position: absolute;
     left:0;
     right:0;
