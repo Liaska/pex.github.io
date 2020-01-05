@@ -1,5 +1,5 @@
 .full__block {
- background: url("/img/header.jpg") center center no-repeat;
+ background: url("../../img/header.jpg") center center no-repeat;
  background-size: cover;
  position: relative;
 }
