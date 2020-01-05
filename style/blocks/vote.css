@@ -33,7 +33,7 @@
     position: absolute;
     width: 141px;
     height: 36px;
-    background: url("/img/vote_bot.png");
+    background: url("../../img/vote_bot.png");
     bottom: -36px;
     left: 50%;
     transform: translateX(-50%);
@@ -43,7 +43,7 @@
 /* BBB START HERE */
 
 .BangBangBoo {
-    background: url("/img/image-1.jpg") no-repeat 50%  /cover pink;
+    background: url("../../img/image-1.jpg") no-repeat 50%  /cover pink;
     padding: 160px 0;
     position: relative;
 }
@@ -104,7 +104,7 @@
 }
 
 .section3__hand {
-    background: url("/img/image-left.jpg") no-repeat  50% /cover;
+    background: url("../../img/image-left.jpg") no-repeat  50% /cover;
     max-width: 625px;
     width: 100%;
 }
@@ -140,7 +140,7 @@
 .section4::after {
     content: "";
     filter: grayscale(100%);
-    background: url("/img/image-2.jpg") no-repeat 50%  /cover pink;
+    background: url("../../img/image-2.jpg") no-repeat 50%  /cover pink;
     position: absolute;
     left:0;
     right:0;
@@ -202,7 +202,7 @@
 /* SECTION 5 START HERE */
 
 .section5 {
-    background: url("/img/image-3.jpg") no-repeat 50% /cover;
+    background: url("../../img/image-3.jpg") no-repeat 50% /cover;
     position: relative;
 }
 
@@ -255,7 +255,7 @@
 
 .section6::before {
     content: "";
-    background: url("/img/Image-right.jpg") no-repeat 50% /cover;
+    background: url("../../img/Image-right.jpg") no-repeat 50% /cover;
     position: absolute;
     width: 670px;
     right: 0;
