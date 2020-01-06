@@ -533,4 +533,18 @@ a{ text-decoration: none;
     .section7__about p {
         text-align: justify;
     }
+    a.contact{
+        margin: 0;
+}
+
+@media (max-width: 400px) {
+    .header__ul a {
+        margin-right: 10px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    a.contact{
+        margin: 0;
+}
+
 }
