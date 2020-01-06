@@ -2,6 +2,9 @@
   background-color: #2e3b4e;
 }
 
+.hidden__section{
+    display:none;
+}
 .conteiner__vote {
     position: relative;
     display: flex;
@@ -406,7 +409,7 @@ a{ text-decoration: none;
         padding: 35px 0 18px;
     }
     .conteiner__vote {
-        padding-bottom: 90px;
+        padding-bottom: 60px;
     }
     .conteiner__bbb{
         font-size: 10px;
@@ -435,19 +438,8 @@ a{ text-decoration: none;
     }
 }
 @media (max-width: 550px) {
-    .container6 {
-        max-width: 62%;
-        margin: 0 20px;
-    }
-    .section6::before  {
-        width: 0;
-    }
-
-    .section6__about {
-        max-width: 100%;
-        width: 100%;
-        margin: 0 20px;
-        padding: 25px;
+    .section6 {
+        display: none;
     }
     .section3__hand {
         display: none;
@@ -479,15 +471,66 @@ a{ text-decoration: none;
     .vote__wrap {
         line-height: 10px;
     }
+    .vote__wrap h3 {
+        text-align: center;
+    }
+    .vote__wrap p {
+        text-align: justify;
+    }
+    .BangBangBoo {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .section3__about {
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+    }
+    .section3__about p {
+        text-align: justify;
+    }
+    .small__text {
+        text-align: justify;
+    }
     .section5__about h2{
         font-size: 30px;
         line-height: 35px;
     }
     .section5__inner {
-        align-items: center;
+        padding: 150px 25px 90px 25px;
     }
     .section4 {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .hidden__section {
+        display: block;
+        color: black;
+        padding: 50px 25px;
+        text-align: center;
+    }
+    .hidden__section b {
+        font-size: 13px; line-height: 22px; padding-bottom: 15px;
+    }
+    
+    .hidden__section p {
+        font-size: 15px; line-height: 26px; padding-bottom: 35px;
+        text-align: justify;
+    }
+    
+    .hidden__section small {
+        font-size: 13px; line-height: 22px;
+    }
+
+    .container7 {
+        padding: 0 25px;
+    }
+
+    .section7__about {
+        text-align: center;
+    }
+    .section7__about p {
+        text-align: justify;
     }
 }
